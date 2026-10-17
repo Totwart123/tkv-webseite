@@ -275,8 +275,30 @@
         }  
     }                                                                                               
     if (1==2) echo '&nbsp;<a class="btn btn-default pull-right makeprint" href="#">Druckansicht</a>';     
-    if (!empty($spielid )) {}    
-    else echo '&nbsp;<a class="btn btn-default pull-right" href="'.str_replace("index", "getpdf", rex_geturl( rex_article::getCurrentId(), rex_clang::getCurrentId(), array( 'tabelle' => $booking['tabelle'],'tag' => $booking['tag'],'spiel' => $booking['spiel'], 'mannschaft' => $booking['mannschaft'], 'plan' => $booking['plan'], 'einzel' => $booking['einzel'], 'sort' => $booking['sort'] , 'pdf' => 'pdf' )) ).'">PDF</a>';   
+    if (!empty($spielid )) {}
+    else
+    {
+        // PDF-Export per POST ausloesen: Suchmaschinen/Crawler folgen keinen
+        // POST-Aktionen, dadurch wird getpdf.php nicht mehr als Link abgeklappert.
+        $pdf_params = array(
+            'article_id' => rex_article::getCurrentId(),
+            'tabelle'    => $booking['tabelle'],
+            'tag'        => $booking['tag'],
+            'spiel'      => $booking['spiel'],
+            'mannschaft' => $booking['mannschaft'],
+            'plan'       => $booking['plan'],
+            'einzel'     => $booking['einzel'],
+            'sort'       => $booking['sort'],
+            'pdf'        => 'pdf',
+        );
+        echo '&nbsp;<form method="post" action="getpdf.php" class="pull-right" style="display:inline; margin:0;">';
+        foreach ($pdf_params as $pdf_key => $pdf_value)
+        {
+            echo '<input type="hidden" name="'.rex_escape($pdf_key).'" value="'.rex_escape($pdf_value).'">';
+        }
+        echo '<button type="submit" class="btn btn-default">PDF</button>';
+        echo '</form>';
+    }
     echo '</div></div>';
     
                                       
