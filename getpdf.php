@@ -43,10 +43,23 @@
     $zielurl = $scheme . '://' . $host . '/index.php?' . http_build_query($params);
 
     // --- 4. Dompdf laden ------------------------------------------------------
-    require_once ( "./redaxo/src/addons/ergebnisdienst/vendor/dompdf/autoload.inc.php");
-
+    // vendor/ ist per .gitignore nicht im Repo und liegt serverseitig je nach
+    // Installation an unterschiedlichen Pfaden. Daher mehrere Kandidaten pruefen.
     use Dompdf\Dompdf;
     use Dompdf\Options;
+
+    $dompdf_autoloaders = array(
+        __DIR__ . '/redaxo/src/addons/pdfout/vendor/autoload.php',
+        __DIR__ . '/redaxo/src/addons/ergebnisdienst/vendor/dompdf/autoload.inc.php',
+    );
+    foreach ($dompdf_autoloaders as $dompdf_autoload) {
+        if (is_file($dompdf_autoload)) { require_once $dompdf_autoload; break; }
+    }
+    if (!class_exists('Dompdf\\Dompdf')) {
+        header('Content-Type: text/plain; charset=utf-8', true, 500);
+        echo 'PDF-Renderer nicht verfuegbar.';
+        exit;
+    }
 
     $pdf_options = new Options();
     $pdf_options->setDpi(100);
@@ -55,12 +68,20 @@
     $dompdf = new Dompdf($pdf_options);
 
     // --- 5. HTML-Parser laden -------------------------------------------------
-    require_once ( "./redaxo/src/addons/ergebnisdienst/vendor/simplehtmldom/HtmlWeb.php");
     use simplehtmldom\HtmlWeb;
+
+    require_once ( __DIR__ . "/redaxo/src/addons/ergebnisdienst/vendor/simplehtmldom/HtmlWeb.php");
 
     // Ziel-URL laden
     $client = new HtmlWeb();
     $html   = $client->load( $zielurl );
+
+    // HtmlWeb liefert null bei Fehler (z.B. interner Request nicht 200) -> kein Fatal
+    if (!$html) {
+        header('Content-Type: text/plain; charset=utf-8', true, 502);
+        echo 'Inhalt konnte nicht geladen werden.';
+        exit;
+    }
 
     $cssfirst = '<style> 
   body,p, th, td { font-size: 0.71em; box-sizing: border-box; } 
@@ -188,7 +209,7 @@ img.logo {
 
     // Logo als Base64 einbetten (falls vorhanden)
     $base64 = '';
-    $path   = './media/logo.png';
+    $path   = __DIR__ . '/media/logo.png';
     if (is_file($path)) {
         $type   = pathinfo($path, PATHINFO_EXTENSION);
         $data   = file_get_contents($path);
