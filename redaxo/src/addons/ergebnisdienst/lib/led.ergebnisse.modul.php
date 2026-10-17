@@ -276,7 +276,7 @@
     }                                                                                               
     if (1==2) echo '&nbsp;<a class="btn btn-default pull-right makeprint" href="#">Druckansicht</a>';     
     if (!empty($spielid )) {}    
-    //else echo '&nbsp;<a class="btn btn-default pull-right" href="'.str_replace("index", "getpdf", rex_geturl( rex_article::getCurrentId(), rex_clang::getCurrentId(), array( 'tabelle' => $booking['tabelle'],'tag' => $booking['tag'],'spiel' => $booking['spiel'], 'mannschaft' => $booking['mannschaft'], 'plan' => $booking['plan'], 'einzel' => $booking['einzel'], 'sort' => $booking['sort'] , 'pdf' => 'pdf' )) ).'">PDF</a>';   
+    else echo '&nbsp;<a class="btn btn-default pull-right" href="'.str_replace("index", "getpdf", rex_geturl( rex_article::getCurrentId(), rex_clang::getCurrentId(), array( 'tabelle' => $booking['tabelle'],'tag' => $booking['tag'],'spiel' => $booking['spiel'], 'mannschaft' => $booking['mannschaft'], 'plan' => $booking['plan'], 'einzel' => $booking['einzel'], 'sort' => $booking['sort'] , 'pdf' => 'pdf' )) ).'">PDF</a>';   
     echo '</div></div>';
     
                                       
