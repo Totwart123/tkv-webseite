@@ -1,0 +1,167 @@
+# =============================================================================
+# .gitignore – TKV Kegeln (REDAXO 5) – Repo aus vollstaendigem Server-Backup
+# Ziel: Nur den Code/Quelltext versionieren. Ausgeschlossen werden Secrets,
+# das REDAXO-Framework, Fremd-Apps, Uploads/Medien, Dokument-Archive, Logs,
+# Caches, Dependencies und sonstiger Ballast.
+# Strategie:
+#   1) Reine Daten-/App-Ordner komplett ausschliessen
+#   2) Dokument-/Medien-Dateitypen GLOBAL ausschliessen -> in gemischten
+#      Ordnern (archiv, jugend, sed, planung ...) bleibt nur der Code uebrig
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Secrets / Zugangsdaten  (NIEMALS ins Repo!)
+# -----------------------------------------------------------------------------
+/config.inc.php
+public.pem
+*.pem
+*.key
+.htpasswd
+**/.htpasswd
+*.env
+.env
+
+# -----------------------------------------------------------------------------
+# REDAXO-Framework komplett ignorieren (Core, bin, data, cache, index.php)
+# und nur die EIGENEN Addons wieder einschliessen.
+# -----------------------------------------------------------------------------
+/redaxo/*
+!/redaxo/src/
+/redaxo/src/*
+!/redaxo/src/addons/
+/redaxo/src/addons/*
+!/redaxo/src/addons/project/
+!/redaxo/src/addons/ergebnisdienst/
+
+# Generierte Addon-Assets (werden bei Installation neu erzeugt)
+/assets/
+
+# -----------------------------------------------------------------------------
+# Fremd-Anwendungen / Tools (separat installierbar, nicht Teil des Codes)
+# -----------------------------------------------------------------------------
+/matomo/
+/matomo_old/
+/adminer-*.php
+
+# -----------------------------------------------------------------------------
+# Subdomains (eigenstaendige Kreis-Websites, vorerst ausgeschlossen)
+# -----------------------------------------------------------------------------
+/subdoms/
+
+# -----------------------------------------------------------------------------
+# Alt-Archiv (historische Jahres-Skripte, vorerst nicht benoetigt – nur
+# ignoriert, nicht geloescht)
+# -----------------------------------------------------------------------------
+/archiv/
+
+# -----------------------------------------------------------------------------
+# Reine Uploads / Medien / Dokument-Archive (kein Code)
+# -----------------------------------------------------------------------------
+/leduploads/
+/media/
+/bilder-tkv/
+/spielerbilder/
+/pics/
+/news/
+/ergebnisse/
+/Spielausschuss/
+/0_Vorlagen/
+/REDAXO_Bedienanleitungen_Vorlagen/
+
+# -----------------------------------------------------------------------------
+# Logs
+# -----------------------------------------------------------------------------
+/logs/
+*.log
+*.log.*
+last_traffic
+traffic.db
+
+# -----------------------------------------------------------------------------
+# Dokumente & Office (global – Daten, kein Code)
+# -----------------------------------------------------------------------------
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.xlsm
+*.xlt
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.csv
+*.rtf
+*.txt
+
+# Generierte HTML-Exporte (Excel/Word "Als Webseite speichern", Livedienst-Tabellen)
+# inkl. der "<name>-Dateien" / "<name>_files" Beiordner
+*.htm
+*.html
+*-Dateien/
+*_files/
+
+# -----------------------------------------------------------------------------
+# Bilder & Medien (global – Daten, kein Code)
+# Hinweis: .svg bleibt drin (Webfonts/Icons), favicon.ico bleibt drin
+# -----------------------------------------------------------------------------
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.png
+*.PNG
+*.gif
+*.GIF
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.psd
+*.emz
+*.wmf
+*.wmv
+*.mp4
+*.mov
+*.avi
+*.mp3
+
+# -----------------------------------------------------------------------------
+# Daten-/Binaerdateien & Dumps
+# -----------------------------------------------------------------------------
+*.db
+*.sqlite
+*.zip
+*.gz
+*.tar
+*.tgz
+*.tar.gz
+*.sql
+*.bak
+*.rar
+*.7z
+*.phar
+
+# -----------------------------------------------------------------------------
+# Abhaengigkeiten (via Composer/npm reproduzierbar)
+# -----------------------------------------------------------------------------
+**/vendor/
+**/node_modules/
+
+# -----------------------------------------------------------------------------
+# Caches
+# -----------------------------------------------------------------------------
+**/.cache/
+
+# -----------------------------------------------------------------------------
+# System- / Editor- / Shell-Muell
+# -----------------------------------------------------------------------------
+.bash_history
+.viminfo
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~

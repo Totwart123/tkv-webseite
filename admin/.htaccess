@@ -1,0 +1,11 @@
+AuthType Basic
+AuthName "Restricted Directory"
+AuthUserFile  /kunden/homepages/29/d263722669/htdocs/dateneingabe/.htpasswd
+require user webmaster
+
+<Files ergebnisse.php>
+AuthType Basic
+AuthName "Restricted Directory"
+AuthUserFile  /kunden/homepages/29/d263722669/htdocs/dateneingabe/.htpasswd
+require valid-user
+</Files>

@@ -1,0 +1,195 @@
+<html><head>
+<title>TKV-Jugend 2012/13</title>
+<style type="text/css"><!--
+/* ViennaSoft CSS Textformate */
+.text1 {font-size:10px; font-family:"Arial",Verdana,Helvetica;}
+.text2 {font-size:10px; font-family:"Arial",Verdana,Helvetica; font-weight:bold;}
+.text3 {font-size:12px; font-family:"Arial",Verdana,Helvetica;}
+.text4 {font-size:12px; font-family:"Arial",Verdana,Helvetica; font-weight:bold;}
+.text5 {font-size:14px; font-family:"Arial",Verdana,Helvetica;}
+.text6 {font-size:14px; font-family:"Arial",Verdana,Helvetica; font-weight:bold;}
+.text7 {font-size:20px; font-family:"Arial",Verdana,Helvetica;}
+.text8 {font-size:20px; font-family:"Arial",Verdana,Helvetica;}
+.text9 {font-size:24px; font-family:"Arial",Verdana,Helvetica; font-weight:bold;}
+.text10 {font-size:18px; font-family:"Arial",Verdana,Helvetica; font-weight:bold;}
+.text11 {font-size:18px; font-family:"Arial",Verdana,Helvetica; font-weight:bold;}
+.text12 {font-size:12px; font-family:"Arial",Verdana,Helvetica; font-weight:bold;}
+.text13 {font-size:10px; font-family:"Arial",Verdana,Helvetica;}
+.text14 {font-size:12px; font-family:"Arial",Verdana,Helvetica;}
+
+/* ViennaSoft CSS Linkformate */
+a:link { color:#0000FF;text-decoration:underline;}
+a:visited { color:#0000FF;text-decoration:underline;}
+a:active { color:#0000FF; background-color:#FFFF00;text-decoration:underline;}
+a:hover { color:#0000FF; background-color:#FFFF00;text-decoration:underline;}
+a:focus { color:#0000FF; background-color:#FFFF00;text-decoration:underline;}
+
+body {color:#000000; margin-left:5px; margin-top:0px; margin-right:0px; margin-bottom:0px; text-align: left; scrollbar-base-color:#FFFFFF;}
+a:hover {color:#0000FF;}
+--></style>
+
+<script src="..\vs_javascript.js" type="text/javascript">
+</script>
+
+</head>
+<body ><!--0-->
+<div id="vscontent" style=" background-color:#FFFFFF; position:relative; z-index:0;  width:1020px; height:3593px;">
+<table border="0" cellpadding="0" cellspacing="0"><tr><td width="1"><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td><td width="10"><p></p></td></tr><tr><td height="10"></td><td colspan="1" width="10" rowspan="10" style=" background-color:#FFFF00;" align="left" valign="middle">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" COLOR="#0000FF"><u></u></Font></td><td colspan="101" width="1010" rowspan="1" style=" background-color:#FFFF00;" align="left" valign="middle">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" COLOR="#0000FF"><u></u></Font></td></tr><tr><td height="10"></td><td colspan="7" width="70" rowspan="9">
+
+<!--BILD--><img src="../externe Bilder/Herbert_Pauli_Online.jpg" name="vs_img979" border="0" width="70" height="90" alt=""></td><td colspan="1" width="10" rowspan="10" style=" background-color:#FFFF00;" align="left" valign="middle">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" COLOR="#0000FF"><u></u></Font></td><td colspan="93" width="930" rowspan="8" style=" background-color:#FFFF00;" align="left" valign="middle">
+
+<!--HTML-TEXT--><FONT FACE="Verdana"><b>TKV Classic - Pokal 2018/19<br><br></b></Font><FONT FACE="Verdana" SIZE=2>Herbert Pauli / E-mail: </Font><FONT FACE="Verdana" SIZE=2 COLOR="#0000FF"><u><a href="mailto:hp@tkv-kegeln.de" target="_blank">hp@tkv-kegeln.de</a><br></u></Font><FONT FACE="Verdana" SIZE=2>Tel./ Fax: (03647)422817, Ft 0179/2067990</Font><FONT FACE="Verdana" COLOR="#0000FF"><u></u></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="93" width="930" rowspan="2" style=" background-color:#FFFF00;" align="left" valign="bottom">
+<span style=" color:#FF0000; font-size:10px; font-family:'Verdana'; background-color:#FFFF00;"><?php
+$LetzteAenderung = filemtime(basename($_SERVER['PHP_SELF']));
+echo"Letztes Update: ",
+date("d.m.Y", $LetzteAenderung),
+" ";
+?></span></td></tr><tr><td height="10"></td><td colspan="8" width="80" rowspan="1" style=" background-color:#FFFF00;" align="left" valign="middle">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" COLOR="#0000FF"><u></u></Font></td></tr><tr><td height="10"></td><td colspan="102" width="1020" rowspan="2"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="1" width="10" rowspan="347"><p></p></td><td colspan="42" width="420" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2 COLOR="#FF0000"><b>Meldeformular f&#252;r das Spieljahr 2019/2020</b></Font><FONT FACE="Verdana" SIZE=2><b>:</b> &gt; </Font><FONT FACE="Verdana" SIZE=2 COLOR="#0000FF"><a href="formulare.php" target="inhalt">hier</a></Font><FONT FACE="Verdana" SIZE=2> &lt;</Font><FONT FACE="Verdana" SIZE=1 COLOR="#FF0000"></Font></td><td colspan="59" width="590" rowspan="10"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="42" width="420" rowspan="2"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="22" width="220" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2>Unterlagen TKV: <a href="tkv-pokal/2018-19_Ausschreibung.pdf" target="_blank">Auschreibung</a></Font><FONT FACE="Verdana" SIZE=1 COLOR="#FF0000"></Font></td><td colspan="20" width="200" rowspan="2"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="39" width="390" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2>Spielprotokoll: </Font><FONT FACE="Verdana" SIZE=2 COLOR="#0000FF"><a href="tkv-pokal/Spielprotokoll-TKV-Pokal-Classic.pdf" target="_blank">PDF-Datei</a></Font><FONT FACE="Verdana" SIZE=2> * </Font><FONT FACE="Verdana" SIZE=2 COLOR="#0000FF"><a href="tkv-pokal/Spielprotokoll-TKV-Pokal-Classic.xls" target="_blank">Excel-Datei</a></Font><FONT FACE="Verdana" SIZE=2>  </Font><FONT FACE="Verdana" SIZE=1 COLOR="#FF0000">Update 17.07.2012 </Font></td><td colspan="3" width="30" rowspan="4"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="39" width="390" rowspan="2"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="44" width="440" rowspan="2" align="left" valign="middle">
+
+<!--RAHMEN--><table border="1" width="440" height="20" rules="cols" frame="void" cellspacing="0" cellpadding="0"><tr><td align="left" valign="middle">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2>1. Runde (</Font><FONT FACE="Verdana" SIZE=2 COLOR="#FF0000">bis 04.01.2019</Font><FONT FACE="Verdana" SIZE=2>)</Font><FONT FACE="Verdana" SIZE=1></Font></td></tr></table>
+</td><td colspan="15" width="150" rowspan="2" align="left" valign="middle">
+
+<!--RAHMEN--><table border="1" width="150" height="20" rules="cols" frame="void" cellspacing="0" cellpadding="0"><tr><td align="left" valign="middle">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2><a href="tkv-pokal/2018-19_Ansetzung 1.Runde.pdf" target="_blank">Ansetzungen</a></Font><FONT FACE="Verdana" SIZE=1></Font></td></tr></table>
+</td><td colspan="14" width="140" rowspan="2" align="center">
+
+<!--RAHMEN--><table border="1" width="140" height="20" rules="cols" frame="void" cellspacing="0" cellpadding="0"><tr><td align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2><a href="tkv-pokal/2018-19_Erg_1.Runde.pdf" target="_blank">Ergebnisse</a></Font><FONT FACE="Verdana" SIZE=1></Font></td></tr></table>
+</td><td colspan="11" width="110" rowspan="2" align="center" valign="middle">
+
+<!--RAHMEN--><table border="1" width="110" height="20" rules="cols" frame="void" cellspacing="0" cellpadding="0"><tr><td align="center" valign="middle">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2><a href="tkv-pokal/2018-19_Spielberichte_1.Runde.pdf" target="_blank">Spielberichte</a></Font><FONT FACE="Verdana" SIZE=1></Font></td></tr></table>
+</td><td colspan="13" width="130" rowspan="2" align="left" valign="middle">
+<span style=" color:#FF0000; font-size:10px; font-family:'Verdana';"><?php 
+    echo "Update: " . date("d.m.Y", filemtime("tkv-pokal/2018-19_Erg_1.Runde.pdf"));
+?>
+</span></td><td colspan="4" width="40" rowspan="337"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="97" width="970" rowspan="1"><p></p></td></tr><tr><td height="10"></td><td colspan="30" width="300" rowspan="17"><p></p></td><td colspan="57" width="570" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2 COLOR="#FF0000"><b>Tabelle Lucky-Loser (Quali-Platz 2.Runde)</b></Font><FONT></Font></td><td colspan="10" width="100" rowspan="17"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="11" width="110" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1><b>Quali-Platz</b></Font><FONT></Font></td><td colspan="1" width="10" rowspan="15"><p></p></td><td colspan="17" width="170" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1><b>Mannschaft</b></Font><FONT></Font></td><td colspan="1" width="10" rowspan="15"><p></p></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1><b>MP</b></Font><FONT></Font></td><td colspan="1" width="10" rowspan="15"><p></p></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1><b>SP</b></Font><FONT></Font></td><td colspan="1" width="10" rowspan="15"><p></p></td><td colspan="9" width="90" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1><b>Ges.-Kegel</b></Font><FONT></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="11" width="110" rowspan="1"><p></p></td><td colspan="17" width="170" rowspan="1"><p></p></td><td colspan="8" width="80" rowspan="1"><p></p></td><td colspan="8" width="80" rowspan="1"><p></p></td><td colspan="9" width="90" rowspan="1"><p></p></td></tr><tr><td height="10"></td><td colspan="11" width="110" rowspan="2" style=" background-color:#FFFF00;" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1 COLOR="#FF0000">Lucky-Loser 1</Font><FONT></Font></td><td colspan="17" width="170" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>KV Bad Langensalza</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>2,0 : 4,0</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>8,0 : 8,0</Font><FONT></Font></td><td colspan="9" width="90" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>1879</Font><FONT></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="11" width="110" rowspan="2" style=" background-color:#FFFF00;" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1 COLOR="#FF0000">Lucky-Loser 2</Font><FONT></Font></td><td colspan="17" width="170" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>1.SKK Stadtroda</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>2,0 : 4,0</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>8,0 : 8,0</Font><FONT></Font></td><td colspan="9" width="90" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>1876</Font><FONT></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="11" width="110" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>Lucky-Loser 3</Font><FONT></Font></td><td colspan="17" width="170" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>SV Eliasbrunn</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>2,0 : 4,0</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>6,5 : 9,5</Font><FONT></Font></td><td colspan="9" width="90" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>2104</Font><FONT></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="11" width="110" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>Lucky-Loser 4</Font><FONT></Font></td><td colspan="17" width="170" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>TSV 1872 Langenwetzendorf</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>0,0 : 6,0</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>2,5 : 13,5</Font><FONT></Font></td><td colspan="9" width="90" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>1881</Font><FONT></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="11" width="110" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>Lucky-Loser 5</Font><FONT></Font></td><td colspan="17" width="170" rowspan="2" align="left">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>KSC 76 Unterwei&#223;bach</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>0,0 : 6,0</Font><FONT></Font></td><td colspan="8" width="80" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>2,5 : 13,5</Font><FONT></Font></td><td colspan="9" width="90" rowspan="2" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=1>1716</Font><FONT></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="11" width="110" rowspan="2"><p></p></td><td colspan="17" width="170" rowspan="2"><p></p></td><td colspan="8" width="80" rowspan="2"><p></p></td><td colspan="8" width="80" rowspan="2"><p></p></td><td colspan="9" width="90" rowspan="2"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="44" width="440" rowspan="10" align="left" valign="top">
+
+<!--RAHMEN--><table border="1" width="440" height="100" rules="cols" frame="void" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2>2. Runde (</Font><FONT FACE="Verdana" SIZE=2 COLOR="#FF0000">bis 29.03.2019</Font><FONT FACE="Verdana" SIZE=2>)<br></Font><FONT FACE="Verdana" SIZE=1><br></Font><FONT FACE="Verdana" SIZE=2 COLOR="#FF0000"><b>Finale am 19.Mai 2019 um 11:00Uhr in Wechmar statt!!!</b></Font><FONT FACE="Verdana" SIZE=1></Font></td></tr></table>
+</td><td colspan="15" width="150" rowspan="2" align="left" valign="top">
+
+<!--RAHMEN--><table border="1" width="150" height="20" rules="cols" frame="void" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2><a href="tkv-pokal/2018-19_Ansetzung 2.Runde.pdf" target="_blank">Ansetzungen</a></Font><FONT FACE="Verdana" SIZE=1></Font></td></tr></table>
+</td><td colspan="14" width="140" rowspan="5" align="center" valign="top">
+
+<!--RAHMEN--><table border="1" width="140" height="50" rules="cols" frame="void" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2><a href="tkv-pokal/2018-19_Erg_2.Runde.pdf" target="_blank">Ergebnisse</a><br></Font><FONT FACE="Verdana" SIZE=1><br></Font><FONT FACE="Verdana" SIZE=2><a href="tkv-pokal/2018-19_Erg_Finale.pdf" target="_blank">Ergebnisse</a> </Font></td></tr></table>
+</td><td colspan="11" width="110" rowspan="5" align="center" valign="top">
+
+<!--RAHMEN--><table border="1" width="110" height="50" rules="cols" frame="void" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=2><a href="tkv-pokal/2018-19_Spielberichte_2.Runde.pdf" target="_blank">Spielberichte</a><br></Font><FONT FACE="Verdana" SIZE=1><br></Font><FONT FACE="Verdana" SIZE=2><a href="https://c.1und1.de/@519851035020236194/kNAw8BpGS9Sa4Dv7zRoq8Q" target="_blank">Foto-Album</a></Font><FONT FACE="Verdana" SIZE=1></Font></td></tr></table>
+</td><td colspan="13" width="130" rowspan="2" align="left" valign="middle">
+<span style=" color:#FF0000; font-size:10px; font-family:'Verdana';"><?php 
+    echo "Update: " . date("d.m.Y", filemtime("tkv-pokal/2018-19_Erg_2.Runde.pdf"));
+?>
+</span></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="15" width="150" rowspan="9"><p></p></td><td colspan="13" width="130" rowspan="1"><p></p></td></tr><tr><td height="10"></td><td colspan="13" width="130" rowspan="2" align="left" valign="middle">
+<span style=" color:#FF0000; font-size:10px; font-family:'Verdana';"><?php 
+    echo "Update: " . date("d.m.Y", filemtime("tkv-pokal/2018-19_Erg_Finale.pdf"));
+?>
+</span></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="38" width="380" rowspan="6"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="44" width="440" rowspan="1"><p></p></td></tr><tr><td height="10"></td><td colspan="10" width="100" rowspan="306"><p></p></td><td colspan="80" width="800" rowspan="44">
+
+<!--BILD--><img src="tkv-pokal/2018-19_TKV-Pokal-Finale_Gruppenbild_kl.JPG" name="vs_img8404" border="0" width="800" height="435" alt=""></td><td colspan="7" width="70" rowspan="306"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="5"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="8" style=" background-color:#FFFF7D;" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=6 COLOR="#FF0000"><b>TKV Classic-Pokalsieger Jugend 2018/19<br>&gt; SV Blau-Wei&#223; Auma &lt;</b></Font><FONT FACE="Verdana" COLOR="#FF0000"><b></b></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="54">
+
+<!--BILD--><img src="tkv-pokal/2019_TKV-Pokal-Finale_Platz_1_kl.JPG" name="vs_img7081" border="0" width="800" height="533" alt=""></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="3"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="8" style=" background-color:#FFFF7D;" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=6 COLOR="#FF0000"><b>2.Platz<br>&gt; KC Gut Holz Kaltensundheim &lt;</b></Font><FONT FACE="Verdana" COLOR="#FF0000"><b></b></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="54">
+
+<!--BILD--><img src="tkv-pokal/2019_TKV-Pokal-Finale_Platz_2_kl.JPG" name="vs_img7082" border="0" width="800" height="533" alt=""></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="3"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="8" style=" background-color:#FFFF7D;" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=6 COLOR="#FF0000"><b>3.Platz<br>&gt; KV Bad Langensalza &lt;</b></Font><FONT FACE="Verdana" COLOR="#FF0000"><b></b></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="54">
+
+<!--BILD--><img src="tkv-pokal/2019_TKV-Pokal-Finale_Platz_3_kl.JPG" name="vs_img7083" border="0" width="800" height="533" alt=""></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="3"><p></p></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="8" style=" background-color:#FFFF7D;" align="center">
+
+<!--HTML-TEXT--><FONT FACE="Verdana" SIZE=6 COLOR="#FF0000"><b>4.Platz<br>&gt; SV Carl Zeiss Jena &lt;</b></Font><FONT FACE="Verdana" COLOR="#FF0000"><b></b></Font></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td><td colspan="80" width="800" rowspan="54">
+
+<!--BILD--><img src="tkv-pokal/2019_TKV-Pokal-Finale_Platz_4_kl.JPG" name="vs_img7084" border="0" width="800" height="533" alt=""></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr><tr><td height="10"></td></tr></table>
+</div></body>
+</html>

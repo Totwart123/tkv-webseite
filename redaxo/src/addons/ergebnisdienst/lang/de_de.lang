@@ -1,0 +1,10 @@
+//
+// General
+//
+lsnews_title      = Ergebnisdienst
+lsnews_info       = Info
+lsnews_help       = Hilfe
+lsnews_licence    = Lizenz
+lsnews_changelog  = Changelog
+
+lsnews_description = Beschreibung

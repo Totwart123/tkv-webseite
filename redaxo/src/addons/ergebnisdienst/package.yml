@@ -1,0 +1,18 @@
+# Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
+
+package: ergebnisdienst
+version: '2.1.1'
+author: Jan Schwate
+supportpage: https://www.labseven.de
+info: Für Redaxo 5
+compile: 0
+
+page:
+  title: 'Ergebnis-Dienst'
+  perm: ergebnisdienst[]
+  pjax: false
+  icon: rex-icon fa-calendar-check-o
+
+requires:
+    packages:
+    redaxo: '>=5.3.0'

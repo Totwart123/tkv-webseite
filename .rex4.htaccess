@@ -1,0 +1,16 @@
+DirectoryIndex index.php
+AddType x-mapp-php4 .php
+
+<Files termine_admin.php>
+AuthType Basic
+AuthName "Restricted Directory"
+AuthUserFile  /kunden/homepages/29/d263722669/htdocs/dateneingabe/.htpasswd
+require valid-user
+</Files>
+
+<Files index_admin.php>
+AuthType Basic
+AuthName "Restricted Directory"
+AuthUserFile  /kunden/homepages/29/d263722669/htdocs/dateneingabe/.htpasswd
+require valid-user
+</Files>
