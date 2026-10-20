@@ -1,50 +1,56 @@
 <?php
 /**
- * Backend-Seite: Schalter fuer den PDF-Export des Ergebnisdienstes.
+ * Backend-Seite: Einstellungen des Ergebnisdienstes.
  *
- * Quelle der Wahrheit ist eine Flag-Datei im Addon-Data-Verzeichnis:
- *   <data>/addons/ergebnisdienst/pdf_export_disabled.flag
- *
- * - Datei vorhanden  -> PDF-Export deaktiviert
- * - Datei fehlt      -> PDF-Export aktiviert
- *
- * Bei deaktiviertem Export verschwindet der PDF-Button im Frontend
- * (led.ergebnisse.modul.php) und getpdf.php liefert kein PDF mehr aus.
+ * Ein Formular / ein Speichern-Button fuer:
+ *  1. PDF-Export an/aus  -> Flag-Datei im Addon-Data-Verzeichnis
+ *       <data>/addons/ergebnisdienst/pdf_export_disabled.flag
+ *       (vorhanden = deaktiviert; Button verschwindet im Frontend,
+ *        getpdf.php liefert kein PDF mehr aus)
+ *  2. API-Key und Liveticker-URL-Prefix -> rex_config('ergebnisdienst', ...)
+ *       (gleiche Keys wie die API-Endpunkte -> Werte bleiben kompatibel)
  */
 
 $flagFile = rex_path::addonData('ergebnisdienst', 'pdf_export_disabled.flag');
-$csrf     = rex_csrf_token::factory('ergebnisdienst_pdf_export');
+$csrf     = rex_csrf_token::factory('ergebnisdienst_einstellungen');
 
 // --- Formular verarbeiten -------------------------------------------------
 if (rex_post('form_submit', 'boolean') && $csrf->isValid()) {
-    $enable = rex_post('pdf_export_enabled', 'boolean', false);
+    $saveOk = true;
 
-    if ($enable) {
-        // Aktivieren -> Flag entfernen
+    // 1. PDF-Export-Schalter (Flag-Datei)
+    $pdfEnabled = rex_post('pdf_export_enabled', 'boolean', false);
+    if ($pdfEnabled) {
         if (is_file($flagFile)) {
             rex_file::delete($flagFile);
         }
-        echo rex_view::success('PDF-Export wurde aktiviert.');
     } else {
-        // Deaktivieren -> Flag anlegen (Verzeichnis sicherstellen)
         rex_dir::create(dirname($flagFile));
-        if (rex_file::put($flagFile, date('c')) !== false) {
-            echo rex_view::success('PDF-Export wurde deaktiviert.');
-        } else {
-            echo rex_view::error('Die Einstellung konnte nicht gespeichert werden (Schreibrechte pruefen).');
+        if (rex_file::put($flagFile, date('c')) === false) {
+            $saveOk = false;
         }
+    }
+
+    // 2. API-Einstellungen (rex_config)
+    rex_config::set('ergebnisdienst', 'api_key', trim(rex_post('api_key', 'string', '')));
+    rex_config::set('ergebnisdienst', 'liveticker_url_prefix', trim(rex_post('liveticker_url_prefix', 'string', '')));
+
+    // Meldung ganz oben ausgeben
+    if ($saveOk) {
+        echo rex_view::success('Einstellungen wurden gespeichert.');
+    } else {
+        echo rex_view::error('Die Einstellungen konnten nicht vollstaendig gespeichert werden (Schreibrechte pruefen).');
     }
 }
 
-// --- Aktuellen Status ermitteln -------------------------------------------
-$enabled = !is_file($flagFile);
-$checked = $enabled ? ' checked' : '';
-$status  = $enabled
-    ? '<span class="text-success"><strong>aktiviert</strong></span>'
-    : '<span class="text-danger"><strong>deaktiviert</strong></span>';
+// --- Aktuelle Werte -------------------------------------------------------
+$pdfEnabled = !is_file($flagFile);
+$apiKey     = (string) rex_config::get('ergebnisdienst', 'api_key', '');
+$prefix     = (string) rex_config::get('ergebnisdienst', 'liveticker_url_prefix', '');
+$checked    = $pdfEnabled ? ' checked' : '';
 
 // --- Formular aufbauen ----------------------------------------------------
-$formContent = '
+$body = '
 <fieldset>
     <div class="rex-form-group form-group checkbox">
         <label>
@@ -56,51 +62,38 @@ $formContent = '
             liefert kein PDF mehr aus.
         </p>
     </div>
-</fieldset>';
 
-$buttons = '
+    <div class="rex-form-group form-group">
+        <label class="control-label" for="ergebnisdienst-api-key">API-Key</label>
+        <input class="form-control" type="text" id="ergebnisdienst-api-key" name="api_key" value="' . rex_escape($apiKey) . '" autocomplete="off" />
+        <p class="help-block rex-note">Wird fuer GET /api/spielplan benoetigt. Uebergabe nur via Header X-API-Key.</p>
+    </div>
+
+    <div class="rex-form-group form-group">
+        <label class="control-label" for="ergebnisdienst-liveticker-prefix">Liveticker URL Prefix</label>
+        <input class="form-control" type="text" id="ergebnisdienst-liveticker-prefix" name="liveticker_url_prefix" value="' . rex_escape($prefix) . '" autocomplete="off" />
+        <p class="help-block rex-note">Wird fuer POST /api/spielplan/liveticker genutzt. Entweder Basis-URL (UUID wird angehaengt) oder Platzhalter {id} verwenden.</p>
+    </div>
+</fieldset>
+
+<div class="alert alert-info">
+    <strong>Endpoint:</strong> GET /api/spielplan<br>
+    <strong>Beispiel:</strong> Header X-API-Key: DEIN_KEY<br>
+    <strong>POST:</strong> /api/liveticker
+</div>
+
 <fieldset class="rex-form-action">
-    <button class="btn btn-save rex-form-aligned" type="submit" name="form_submit" value="1">
-        Speichern
-    </button>
+    <button class="btn btn-save rex-form-aligned" type="submit" name="form_submit" value="1">Speichern</button>
 </fieldset>';
 
 $output = '
 <form action="' . rex_url::currentBackendPage() . '" method="post">
     ' . $csrf->getHiddenField() . '
-    ' . $formContent . '
-    ' . $buttons . '
+    ' . $body . '
 </form>';
 
 $fragment = new rex_fragment();
 $fragment->setVar('class', 'edit', false);
-$fragment->setVar('title', 'PDF-Export &ndash; aktueller Status: ' . $status, false);
+$fragment->setVar('title', 'Einstellungen', false);
 $fragment->setVar('body', $output, false);
 echo $fragment->parse('core/page/section.php');
-
-// ==========================================================================
-// API-Einstellungen (zuvor eigener Reiter "API")
-// rex_config_form liest/schreibt dieselben rex_config-Keys (api_key,
-// liveticker_url_prefix) im Namespace 'ergebnisdienst' -> bestehende Werte
-// bleiben erhalten.
-// ==========================================================================
-$apiForm = rex_config_form::factory('ergebnisdienst');
-
-$field = $apiForm->addTextField('api_key');
-$field->setLabel('API-Key');
-$field->setAttribute('autocomplete', 'off');
-$field->setNotice('Wird fuer GET /api/spielplan benoetigt. Uebergabe nur via Header X-API-Key.');
-
-$prefixField = $apiForm->addTextField('liveticker_url_prefix');
-$prefixField->setLabel('Liveticker URL Prefix');
-$prefixField->setAttribute('autocomplete', 'off');
-$prefixField->setNotice('Wird fuer POST /api/spielplan/liveticker genutzt. Entweder Basis-URL (UUID wird angehaengt) oder Platzhalter {id} verwenden.');
-
-$apiInfo  = '<div class="alert alert-info" style="margin-top: 15px;">';
-$apiInfo .= '<strong>Endpoint:</strong> GET /api/spielplan<br>';
-$apiInfo .= '<strong>Beispiel:</strong> Header X-API-Key: DEIN_KEY<br>';
-$apiInfo .= '<strong>POST:</strong> /api/liveticker';
-$apiInfo .= '</div>';
-
-echo $apiForm->get();
-echo $apiInfo;
