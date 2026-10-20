@@ -14,6 +14,16 @@
         exit;
     }
 
+    // --- 1b. Backend-Schalter: PDF-Export deaktivierbar -----------------------
+    // Gesteuert ueber Ergebnis-Dienst > Einstellungen im REDAXO-Backend.
+    // Flag-Datei vorhanden = Export deaktiviert (Standard-Datenpfad redaxo/data).
+    $pdf_disabled_flag = __DIR__ . '/redaxo/data/addons/ergebnisdienst/pdf_export_disabled.flag';
+    if (is_file($pdf_disabled_flag)) {
+        header('Content-Type: text/plain; charset=utf-8', true, 403);
+        echo 'Die PDF-Ausgabe ist deaktiviert.';
+        exit;
+    }
+
     // --- 2. Parameter validieren (Whitelist) ----------------------------------
     // article_id ist Pflicht und muss numerisch sein.
     $article_id = isset($_POST['article_id']) ? (int) $_POST['article_id'] : 0;

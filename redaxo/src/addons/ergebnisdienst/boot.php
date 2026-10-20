@@ -86,6 +86,10 @@ if (rex::isBackend() && rex::getUser()) {
   $page = $this->getProperty('page');
   $page['subpages']['api'] = ['title' => 'API', 'perm' => 'ergebnisdienst[]', 'itemclass' => 'pull-right'];
   $this->setProperty('page', $page);
+
+  $page = $this->getProperty('page');
+  $page['subpages']['einstellungen'] = ['title' => 'Einstellungen', 'perm' => 'ergebnisdienst[]', 'itemclass' => 'pull-right'];
+  $this->setProperty('page', $page);
   
   // Einzelspiel soll nicht ins Menu
 
