@@ -83,10 +83,7 @@ if (rex::isBackend() && rex::getUser()) {
   $page['subpages']['uploadliste'] = ['title' => 'Uploads', 'hidden' => false, 'perm' => 'ergebnisdienst[]', 'itemclass' => 'pull-right'];
   $this->setProperty('page', $page); 
 
-  $page = $this->getProperty('page');
-  $page['subpages']['api'] = ['title' => 'API', 'perm' => 'ergebnisdienst[]', 'itemclass' => 'pull-right'];
-  $this->setProperty('page', $page);
-
+  // Hinweis: Der fruehere Reiter "API" wurde in "Einstellungen" integriert.
   $page = $this->getProperty('page');
   $page['subpages']['einstellungen'] = ['title' => 'Einstellungen', 'perm' => 'ergebnisdienst[]', 'itemclass' => 'pull-right'];
   $this->setProperty('page', $page);

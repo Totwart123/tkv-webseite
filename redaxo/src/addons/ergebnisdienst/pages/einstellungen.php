@@ -77,3 +77,30 @@ $fragment->setVar('class', 'edit', false);
 $fragment->setVar('title', 'PDF-Export &ndash; aktueller Status: ' . $status, false);
 $fragment->setVar('body', $output, false);
 echo $fragment->parse('core/page/section.php');
+
+// ==========================================================================
+// API-Einstellungen (zuvor eigener Reiter "API")
+// rex_config_form liest/schreibt dieselben rex_config-Keys (api_key,
+// liveticker_url_prefix) im Namespace 'ergebnisdienst' -> bestehende Werte
+// bleiben erhalten.
+// ==========================================================================
+$apiForm = rex_config_form::factory('ergebnisdienst');
+
+$field = $apiForm->addTextField('api_key');
+$field->setLabel('API-Key');
+$field->setAttribute('autocomplete', 'off');
+$field->setNotice('Wird fuer GET /api/spielplan benoetigt. Uebergabe nur via Header X-API-Key.');
+
+$prefixField = $apiForm->addTextField('liveticker_url_prefix');
+$prefixField->setLabel('Liveticker URL Prefix');
+$prefixField->setAttribute('autocomplete', 'off');
+$prefixField->setNotice('Wird fuer POST /api/spielplan/liveticker genutzt. Entweder Basis-URL (UUID wird angehaengt) oder Platzhalter {id} verwenden.');
+
+$apiInfo  = '<div class="alert alert-info" style="margin-top: 15px;">';
+$apiInfo .= '<strong>Endpoint:</strong> GET /api/spielplan<br>';
+$apiInfo .= '<strong>Beispiel:</strong> Header X-API-Key: DEIN_KEY<br>';
+$apiInfo .= '<strong>POST:</strong> /api/liveticker';
+$apiInfo .= '</div>';
+
+echo $apiForm->get();
+echo $apiInfo;
