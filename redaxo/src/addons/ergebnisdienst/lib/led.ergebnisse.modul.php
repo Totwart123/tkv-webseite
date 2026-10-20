@@ -275,7 +275,10 @@
         }  
     }                                                                                               
     if (1==2) echo '&nbsp;<a class="btn btn-default pull-right makeprint" href="#">Druckansicht</a>';     
-    if (!empty($spielid )) {}
+    // PDF-Export kann im Backend (Ergebnis-Dienst > Einstellungen) deaktiviert
+    // werden. Steuerung ueber eine Flag-Datei im Addon-Data-Verzeichnis.
+    $pdf_export_enabled = !is_file(rex_path::addonData('ergebnisdienst', 'pdf_export_disabled.flag'));
+    if (!empty($spielid ) || !$pdf_export_enabled) {}
     else
     {
         // PDF-Export per POST ausloesen: Suchmaschinen/Crawler folgen keinen
